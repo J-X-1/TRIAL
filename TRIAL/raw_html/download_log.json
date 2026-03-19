@@ -1,0 +1,573 @@
+{
+  "scrape_start": "2026-03-03T14:24:32.550920",
+  "source": "selenium v2 - waits for doc-viewer",
+  "chapters_attempted": 54,
+  "chapters_downloaded": 23,
+  "chapters_not_found": 31,
+  "chapters_failed": 0,
+  "files": [
+    {
+      "chapter": 1101,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1101.htm",
+        "content_html": "IN_1101_content.htm",
+        "plain_text": "IN_1101.txt"
+      },
+      "sizes": {
+        "full_page": 308618,
+        "content_html": 50759,
+        "plain_text": 26374
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1101.htm"
+    },
+    {
+      "chapter": 1102,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1102.htm",
+        "content_html": "IN_1102_content.htm",
+        "plain_text": "IN_1102.txt"
+      },
+      "sizes": {
+        "full_page": 270045,
+        "content_html": 12159,
+        "plain_text": 3480
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1102.htm"
+    },
+    {
+      "chapter": 1103,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1103.htm",
+        "content_html": "IN_1103_content.htm",
+        "plain_text": "IN_1103.txt"
+      },
+      "sizes": {
+        "full_page": 281734,
+        "content_html": 23854,
+        "plain_text": 10147
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1103.htm"
+    },
+    {
+      "chapter": 1104,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1104.htm",
+        "content_html": "IN_1104_content.htm",
+        "plain_text": "IN_1104.txt"
+      },
+      "sizes": {
+        "full_page": 275207,
+        "content_html": 17300,
+        "plain_text": 6920
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1104.htm"
+    },
+    {
+      "chapter": 1105,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1105.htm",
+        "content_html": "IN_1105_content.htm",
+        "plain_text": "IN_1105.txt"
+      },
+      "sizes": {
+        "full_page": 327639,
+        "content_html": 69749,
+        "plain_text": 43375
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1105.htm"
+    },
+    {
+      "chapter": 1106,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1106.htm",
+        "content_html": "IN_1106_content.htm",
+        "plain_text": "IN_1106.txt"
+      },
+      "sizes": {
+        "full_page": 272850,
+        "content_html": 14957,
+        "plain_text": 5380
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1106.htm"
+    },
+    {
+      "chapter": 1107,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1107.htm",
+        "content_html": "IN_1107_content.htm",
+        "plain_text": "IN_1107.txt"
+      },
+      "sizes": {
+        "full_page": 295479,
+        "content_html": 37586,
+        "plain_text": 21167
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1107.htm"
+    },
+    {
+      "chapter": 1108,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1108.htm",
+        "content_html": "IN_1108_content.htm",
+        "plain_text": "IN_1108.txt"
+      },
+      "sizes": {
+        "full_page": 272178,
+        "content_html": 14305,
+        "plain_text": 4701
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1108.htm"
+    },
+    {
+      "chapter": 1109,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1109.htm",
+        "content_html": "IN_1109_content.htm",
+        "plain_text": "IN_1109.txt"
+      },
+      "sizes": {
+        "full_page": 283159,
+        "content_html": 25260,
+        "plain_text": 12748
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1109.htm"
+    },
+    {
+      "chapter": 1110,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1110.htm",
+        "content_html": "IN_1110_content.htm",
+        "plain_text": "IN_1110.txt"
+      },
+      "sizes": {
+        "full_page": 272885,
+        "content_html": 15002,
+        "plain_text": 5396
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1110.htm"
+    },
+    {
+      "chapter": 1111,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1111.htm",
+        "content_html": "IN_1111_content.htm",
+        "plain_text": "IN_1111.txt"
+      },
+      "sizes": {
+        "full_page": 267325,
+        "content_html": 9440,
+        "plain_text": 2173
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1111.htm"
+    },
+    {
+      "chapter": 1112,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1112.htm",
+        "content_html": "IN_1112_content.htm",
+        "plain_text": "IN_1112.txt"
+      },
+      "sizes": {
+        "full_page": 267036,
+        "content_html": 9146,
+        "plain_text": 1899
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1112.htm"
+    },
+    {
+      "chapter": 1113,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1113.htm",
+        "content_html": "IN_1113_content.htm",
+        "plain_text": "IN_1113.txt"
+      },
+      "sizes": {
+        "full_page": 264752,
+        "content_html": 6843,
+        "plain_text": 743
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1113.htm"
+    },
+    {
+      "chapter": 1114,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1114.htm",
+        "content_html": "IN_1114_content.htm",
+        "plain_text": "IN_1114.txt"
+      },
+      "sizes": {
+        "full_page": 317060,
+        "content_html": 59155,
+        "plain_text": 35148
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1114.htm"
+    },
+    {
+      "chapter": 1115,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1115.htm",
+        "content_html": "IN_1115_content.htm",
+        "plain_text": "IN_1115.txt"
+      },
+      "sizes": {
+        "full_page": 322983,
+        "content_html": 65095,
+        "plain_text": 35477
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1115.htm"
+    },
+    {
+      "chapter": 1116,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1116.htm",
+        "content_html": "IN_1116_content.htm",
+        "plain_text": "IN_1116.txt"
+      },
+      "sizes": {
+        "full_page": 267693,
+        "content_html": 9808,
+        "plain_text": 2747
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1116.htm"
+    },
+    {
+      "chapter": 1117,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1117.htm",
+        "content_html": "IN_1117_content.htm",
+        "plain_text": "IN_1117.txt"
+      },
+      "sizes": {
+        "full_page": 272965,
+        "content_html": 15080,
+        "plain_text": 6115
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1117.htm"
+    },
+    {
+      "chapter": 1118,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1118.htm"
+    },
+    {
+      "chapter": 1119,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1119.htm"
+    },
+    {
+      "chapter": 1120,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1120.htm"
+    },
+    {
+      "chapter": 1121,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1121.htm"
+    },
+    {
+      "chapter": 1122,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1122.htm"
+    },
+    {
+      "chapter": 1123,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1123.htm"
+    },
+    {
+      "chapter": 1124,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1124.htm"
+    },
+    {
+      "chapter": 1125,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1125.htm"
+    },
+    {
+      "chapter": 1126,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1126.htm"
+    },
+    {
+      "chapter": 1127,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1127.htm"
+    },
+    {
+      "chapter": 1128,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1128.htm"
+    },
+    {
+      "chapter": 1129,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1129.htm"
+    },
+    {
+      "chapter": 1130,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1130.htm"
+    },
+    {
+      "chapter": 1131,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1131.htm",
+        "content_html": "IN_1131_content.htm",
+        "plain_text": "IN_1131.txt"
+      },
+      "sizes": {
+        "full_page": 365078,
+        "content_html": 107160,
+        "plain_text": 57894
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1131.htm"
+    },
+    {
+      "chapter": 1132,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1132.htm",
+        "content_html": "IN_1132_content.htm",
+        "plain_text": "IN_1132.txt"
+      },
+      "sizes": {
+        "full_page": 266329,
+        "content_html": 8436,
+        "plain_text": 1844
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1132.htm"
+    },
+    {
+      "chapter": 1133,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1133.htm"
+    },
+    {
+      "chapter": 1134,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1134.htm"
+    },
+    {
+      "chapter": 1135,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1135.htm"
+    },
+    {
+      "chapter": 1136,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1136.htm"
+    },
+    {
+      "chapter": 1137,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1137.htm"
+    },
+    {
+      "chapter": 1138,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1138.htm"
+    },
+    {
+      "chapter": 1139,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1139.htm"
+    },
+    {
+      "chapter": 1140,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1140.htm"
+    },
+    {
+      "chapter": 1141,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1141.htm"
+    },
+    {
+      "chapter": 1142,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1142.htm"
+    },
+    {
+      "chapter": 1143,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1143.htm"
+    },
+    {
+      "chapter": 1144,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1144.htm"
+    },
+    {
+      "chapter": 1145,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1145.htm"
+    },
+    {
+      "chapter": 1146,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1146.htm"
+    },
+    {
+      "chapter": 1147,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1147.htm"
+    },
+    {
+      "chapter": 1148,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1148.htm"
+    },
+    {
+      "chapter": 1149,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1149.htm"
+    },
+    {
+      "chapter": 1150,
+      "status": "no_content",
+      "reason": "text_len=0, sections=False, header=False",
+      "viewer_text_preview": "(empty)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1150.htm"
+    },
+    {
+      "chapter": 1151,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1151.htm",
+        "content_html": "IN_1151_content.htm",
+        "plain_text": "IN_1151.txt"
+      },
+      "sizes": {
+        "full_page": 290511,
+        "content_html": 32641,
+        "plain_text": 15591
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1151.htm"
+    },
+    {
+      "chapter": 1152,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1152.htm",
+        "content_html": "IN_1152_content.htm",
+        "plain_text": "IN_1152.txt"
+      },
+      "sizes": {
+        "full_page": 293762,
+        "content_html": 35858,
+        "plain_text": 16561
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1152.htm"
+    },
+    {
+      "chapter": 1153,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1153.htm",
+        "content_html": "IN_1153_content.htm",
+        "plain_text": "IN_1153.txt"
+      },
+      "sizes": {
+        "full_page": 308706,
+        "content_html": 50799,
+        "plain_text": 27450
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1153.htm"
+    },
+    {
+      "chapter": 1154,
+      "status": "downloaded",
+      "files": {
+        "full_page": "IN_1154.htm",
+        "content_html": "IN_1154_content.htm",
+        "plain_text": "IN_1154.txt"
+      },
+      "sizes": {
+        "full_page": 272916,
+        "content_html": 15007,
+        "plain_text": 4845
+      },
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1154.htm"
+    }
+  ],
+  "scrape_end": "2026-03-03T14:44:26.694451"
+}
