@@ -1,0 +1,45 @@
+Total: 96/100
+
+A (Direct Factual Lookup): 20/20 = 100%
+B (Multi-Section Synthesis): 14/16 = 87.5%
+C (Statute ID Lookup): 16/16 = 100%
+D (Domain-Specific / Nuanced): 20/20 = 100%
+E (Out-of-Scope): 16/16 = 100%
+F (Edge Cases): 10/12 = 83.3%
+
+Category A: Direct Factual Lookup
+Q1: 4/4
+Q2: 4/4
+Q3: 4/4
+Q4: 4/4
+Q5: 4/4
+
+Category B: Multi-Section Synthesis
+Q6: 4/4
+Q7: 2/4
+Q8: 4/4
+Q9: 4/4
+
+Category C: Statute ID Lookup
+Q10: 4/4
+Q11: 4/4
+Q12: 4/4
+Q13: 4/4
+
+Category D: Domain-Specific / Nuanced
+Q14: 4/4
+Q15: 4/4
+Q16: 4/4
+Q17: 4/4
+Q18: 4/4
+
+Category E: Out-of-Scope
+Q19: 4/4
+Q20: 4/4
+Q21: 4/4
+Q22: 4/4
+
+Category F: Edge Cases
+Q23: 4/4
+Q24: 4/4
+Q25: 2/4

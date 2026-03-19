@@ -1,0 +1,841 @@
+1
+python trial_qa.py "What is the grace period for life insurance in Texas?"
+============================================================
+Question: What is the grace period for life insurance in Texas?
+Model:    gpt-5.4
+============================================================
+
+For a standard **life insurance policy** in Texas, the policy must contain a **grace period of at least one month** for payment of each premium after the first payment, and the policy remains in force during that period. Sec. 1101.005(a)(1).
+
+Related provisions in the provided statutes:
+
+- **Industrial life insurance**: at least a **four-week** grace period. Sec. 1151.057(a).
+- **Group life insurance**: **31 days** for payment of any premium other than the first. Sec. 1131.103(a).
+- **Variable life/variable annuity contracts**: must contain grace provisions appropriate to the contract, but no specific number of days is stated in the provided text. Sec. 1152.108.
+
+Also, for standard life insurance, the policy may provide for an interest charge on a premium paid during the grace period, or for deduction of the overdue premium from the settlement if the insured dies during the grace period. Sec. 1101.005(a)(2).
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1101.005     | GRACE PERIOD                             | score=0.533 (semantic)
+  Sec. 1151.057     | GRACE PERIOD                             | score=0.478 (semantic)
+  Sec. 1131.103     | GRACE PERIOD                             | score=0.465 (semantic)
+  Sec. 1152.108     | GRACE, REINSTATEMENT, AND NONFORFEITURE  | score=0.204 (semantic)
+  Sec. 1101.053     | CERTAIN LIMITATIONS PERIODS              | score=0.187 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1151.057', '1152.108', '1101.005', '1131.103']
+  Valid:        ['1151.057', '1152.108', '1101.005', '1131.103']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+2
+python trial_qa.py "How long does a life insurance company have to settle a death claim?"
+============================================================
+Question: How long does a life insurance company have to settle a death claim?
+Model:    gpt-5.4
+============================================================
+
+A life insurance policy must provide that settlement after the insured’s death will be made no later than two months after the insurer receives proof of:
+
+1. the death; and
+2. the claimant’s right to the policy proceeds.
+Sec. 1101.011(a).
+
+For an industrial life insurance policy, the insurer must settle the claim no later than two months after the insurer receives at its home office:
+
+1. proof of death satisfactory to the insurer; and
+2. proof of the claimant’s right to the insurance proceeds.
+Sec. 1151.060.
+
+Exception: a private placement contract issued under Section 1152.110 may allow settlement of the portion attributable to separate account assets to take longer than two months, if payment depends on the liquidity of those assets and is made when the assets are converted to cash under applicable terms. Sec. 1101.011(b); Sec. 1103.102(c).
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1101.011     | TIME FOR SETTLEMENT OF CLAIM             | score=0.393 (semantic)
+  Sec. 1151.060     | CLAIM BASED ON DEATH OF INSURED          | score=0.369 (semantic)
+  Sec. 1101.053     | CERTAIN LIMITATIONS PERIODS              | score=0.136 (semantic)
+  Sec. 1101.055     | SETTLEMENT ON MATURITY LESS THAN FACE VA | score=0.119 (semantic)
+  Sec. 1103.102     | PAYMENT TO DESIGNATED BENEFICIARY        | score=0.074 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1103.102', '1152.110', '1151.060', '1101.011']
+  Valid:        ['1103.102', '1151.060', '1101.011']
+  Hallucinated: ['1152.110']
+  Status:       FAIL — hallucinated citations detected
+============================================================
+
+
+
+3
+python trial_qa.py "What happens if the insured's age was understated on a life insurance policy?"
+============================================================
+Question: What happens if the insured's age was understated on a life insurance policy?
+Model:    gpt-5.4
+============================================================
+
+If the insured's age was understated on a life insurance policy, the policy must provide that the amount payable is the amount that the premium paid would have purchased if the insured's age had been stated correctly. Sec. 1101.008.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1101.008     | ADJUSTMENT OF AMOUNT PAYABLE IF AGE OF I | score=0.458 (semantic)
+  Sec. 1151.056     | ADJUSTMENT OF AMOUNT PAYABLE IF AGE OF I | score=0.350 (semantic)
+  Sec. 1131.107     | ADJUSTMENT OF PREMIUMS OR BENEFITS IF AG | score=0.277 (semantic)
+  Sec. 1101.055     | SETTLEMENT ON MATURITY LESS THAN FACE VA | score=0.080 (semantic)
+  Sec. 1101.054     | RETROACTIVE ISSUANCE OR EFFECT;  EXCHANG | score=0.035 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1101.008']
+  Valid:        ['1101.008']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+4
+python trial_qa.py "Must life insurance benefits in Texas be paid in US currency?"
+============================================================
+Question: Must life insurance benefits in Texas be paid in US currency?
+Model:    gpt-5.4
+============================================================
+
+Texas law provides that each benefit payable under an insurance policy delivered, issued, or used in this state by an insurer must be payable in currency. Sec. 1102.002.
+
+The statutes provided do not say that benefits must be paid specifically in United States currency. Instead, they contemplate that a policy may provide for benefits payable in foreign currency, so long as the policy includes a conspicuous statement that the value of the foreign currency can fluctuate compared to United States currency. Sec. 1102.003(a), (b).
+
+So, based on the provided statutes, life insurance benefits do not have to be paid specifically in U.S. currency; they must be payable in currency, and foreign currency is permitted if the disclosure required by Sec. 1102.003 is included.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1102.002     | BENEFITS PAYABLE IN CURRENCY             | score=0.356 (semantic)
+  Sec. 1102.003     | STATEMENT REGARDING VALUE OF FOREIGN CUR | score=0.182 (semantic)
+  Sec. 1103.102     | PAYMENT TO DESIGNATED BENEFICIARY        | score=0.121 (semantic)
+  Sec. 1131.109     | PERSON TO WHOM BENEFITS ARE PAYABLE      | score=0.117 (semantic)
+  Sec. 1101.010     | NONFORFEITURE BENEFITS AND CASH SURRENDE | score=0.113 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1102.002', '1102.003']
+  Valid:        ['1102.002', '1102.003']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+5
+python trial_qa.py "What is the rescission period for a fixed annuity contract?"
+============================================================
+Question: What is the rescission period for a fixed annuity contract?
+Model:    gpt-5.4
+============================================================
+
+A fixed annuity contract must provide a rescission period of **at least 20 days after the date the contract is delivered**. During that period, the purchaser may rescind the contract and receive an **unconditional refund of premiums paid**, including any **contract fees or charges**. **Sec. 1116.002(a)**
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1116.002     | RESCISSION PERIOD REQUIRED               | score=0.490 (semantic)
+  Sec. 1107.004     | OPTIONAL TERMINATION PROVISION           | score=0.016 (semantic)
+  Sec. 1107.105     | COMPUTATION OF BENEFITS AVAILABLE AT THE | score=0.004 (semantic)
+  Sec. 1114.0542    | PROCESSING OF SURRENDER REQUESTS FOR ANN | score=-0.010 (semantic)
+  Sec. 1107.003     | REQUIRED NONFORFEITURE PROVISIONS        | score=-0.016 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1116.002']
+  Valid:        ['1116.002']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+6
+python trial_qa.py "What are the incontestability provisions across different types of life insurance?"
+============================================================
+Question: What are the incontestability provisions across different types of life insurance?
+Model:    gpt-5.4
+============================================================
+
+The provided statutes set out incontestability provisions for several types of life insurance:
+
+- **Individual life insurance**: A life insurance policy must provide that, after being in force for **two years from its date of issue during the insured’s lifetime**, the policy is **incontestable**, except for **nonpayment of premiums**. The insurer may also choose to include a provision allowing the policy to be contested at any time for violation of policy conditions relating to **naval and military service in time of war**. **Sec. 1101.006**
+
+- **Industrial life insurance**: An industrial life insurance policy must provide that, after being in force for **two years from its date of issue during the insured’s lifetime**, the policy is **incontestable**, except:
+  1. for **nonpayment of a premium**;
+  2. for violation of a policy condition relating to **naval or military service in time of war**; and
+  3. concerning provisions relating to:
+     - **total or permanent disability** as defined by the policy; or
+     - **additional insurance** specifically against:
+       - **accidental death**; or
+       - **loss of, or loss of use of, specific parts of the body**.
+  **Sec. 1151.055**
+
+- **Group life insurance**: A group life insurance policy must provide that:
+  1. the validity of the policy may not be contested, except for **nonpayment of premiums**, after the policy has been in force for **two years after its date of issue**; and
+  2. a statement made by an insured relating to the insured’s **insurability** may not be used to contest the validity of that insurance after the insurance has been in force **for two years from its date of issue during the insured’s lifetime**, unless the statement is contained in a **written instrument signed by the insured**.
+  **Sec. 1131.104**
+
+These are the incontestability provisions contained in the provided statutes.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1101.006     | INCONTESTABILITY                         | score=0.414 (semantic)
+  Sec. 1151.055     | INCONTESTABILITY OF POLICY               | score=0.352 (semantic)
+  Sec. 1131.104     | INCONTESTABILITY OF POLICY               | score=0.319 (semantic)
+  Sec. 1151.152     | PROVISIONS CONCERNING STIPULATED FORM OF | score=0.101 (semantic)
+  Sec. 1101.053     | CERTAIN LIMITATIONS PERIODS              | score=0.094 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1101.006', '1151.055', '1131.104']
+  Valid:        ['1101.006', '1151.055', '1131.104']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+7
+python trial_qa.py "What protections exist for a policyholder who defaults on premium payments?"
+============================================================
+Question: What protections exist for a policyholder who defaults on premium payments?
+Model:    gpt-5.4
+============================================================
+
+The provided statutes give several protections for a policyholder who defaults on premium payments, depending on the type of life insurance policy:
+
+- **Reinstatement of industrial life insurance policies**: An industrial life insurance policy must allow reinstatement after default, as long as the cash surrender value has not been paid and the term of extended insurance has not expired. Reinstatement must be available until the first anniversary of the default, or at the insurer’s option, until the 52nd week after default, if the insured pays overdue premiums, pays or reinstates any other debt on the policy, and provides satisfactory evidence of insurability. The insurer may charge interest on overdue premiums at a policy-specified annual rate not exceeding six percent. **Sec. 1151.061**
+
+- **Reinstatement of certain life insurance policies after default**: A life insurance policy covered by the applicable subchapter must provide that, after default, the policy’s value will be applied to purchase other insurance. The original policy may be reinstated within three years after default if the purchased insurance remains in force, the original policy has not been surrendered and canceled, the company receives satisfactory evidence of insurability, and overdue premiums are paid with interest. **Sec. 1101.156**
+
+- **Nonforfeiture protections**: A life insurance policy must contain nonforfeiture provisions protecting a defaulting policyholder. On proper request made not later than the 60th day after the due date of the defaulted premium, the company must grant a paid-up nonforfeiture benefit effective as of that due date. The company may instead offer an actuarially equivalent alternative paid-up nonforfeiture benefit if elected within the same 60-day period. **Sec. 1105.004(b)**
+
+- **Cash surrender value after default**: If the policy is surrendered not later than the 60th day after the due date of the defaulted premium, the company must pay a cash surrender value instead of a paid-up nonforfeiture benefit, if premiums have been paid for at least three full years for ordinary insurance or five full years for industrial insurance. **Sec. 1105.004(c)(1)**
+
+- **Default option if no election is made**: The policy must provide that a specified paid-up nonforfeiture benefit becomes effective unless another available option is elected not later than the 60th day after the due date of the defaulted premium. **Sec. 1105.004(c)(2)**
+
+- **Required policy disclosures about these protections**: The policy must state how cash surrender values and paid-up nonforfeiture benefits are calculated, state that those values and benefits are not less than the minimum required by Texas law, and explain how indebtedness on the policy affects those values and benefits. **Sec. 1105.004(d)**
+
+These are the protections contained in the provided statutes.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1151.061     | REINSTATEMENT OF POLICY                  | score=0.101 (semantic)
+  Sec. 1131.453     | PAYMENT OF PREMIUMS                      | score=0.094 (semantic)
+  Sec. 1101.156     | PURCHASE OF OTHER INSURANCE AND REINSTAT | score=0.085 (semantic)
+  Sec. 1131.856     | PAST DUE PREMIUM                         | score=0.081 (semantic)
+  Sec. 1105.004     | REQUIRED NONFORFEITURE PROVISIONS        | score=0.050 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1105.004', '1151.061', '1101.156']
+  Valid:        ['1105.004', '1151.061', '1101.156']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+8
+python trial_qa.py "How does Texas law regulate the replacement of existing life insurance policies?"
+============================================================
+Question: How does Texas law regulate the replacement of existing life insurance policies?
+Model:    gpt-5.4
+============================================================
+
+Texas law regulates replacement of existing life insurance policies through Chapter 1114 by setting minimum conduct standards for insurers and agents, requiring disclosures and notices, imposing supervision and recordkeeping duties, and providing penalties for noncompliance.
+
+- **Purpose of regulation:** Chapter 1114 is intended to regulate insurer and agent activities in replacements, protect purchasers, ensure they receive information needed to make decisions in their best interest, reduce misrepresentation and incomplete disclosure, and establish penalties for noncompliance. Sec. 1114.001.
+
+- **Insurer supervision and control:** An insurer that uses agents must maintain a system of supervision and control to ensure compliance with Chapter 1114. At a minimum, the insurer must:
+  - inform agents of Chapter 1114 requirements and include them in training manuals;
+  - provide agents a written statement of the insurer’s position on replacements and guidance on appropriateness;
+  - review replacement transactions not indicated as acceptable under that guidance;
+  - implement procedures to confirm compliance; and
+  - implement procedures to detect unreported replacements. Sec. 1114.052(b).
+
+- **Monitoring and records:** Insurers must have the capacity to monitor each agent’s replacement activity and maintain records available to the department on request, including replacement percentages, lapse percentages, unreported replacements detected, and replacements indexed by replacing agent and existing insurer. Sec. 1114.052(d). Insurers must also retain specified sales materials, illustrations, and signed statements for at least five years after termination or expiration of the proposed policy or contract if the applicant has existing policies or contracts. Sec. 1114.052(g). Records may be maintained in various media. Sec. 1114.052(j).
+
+- **Application requirements:** With each application for life insurance or an annuity, the insurer must require a signed statement by both the applicant and the agent stating whether the applicant has existing policies or contracts. Sec. 1114.052(e). If the application indicates an existing policy or contract, the insurer must require a completed notice regarding replacements. Sec. 1114.052(f). If an application does not meet Chapter 1114 requirements, the insurer must notify the agent and applicant and fulfill the outstanding requirements. Sec. 1114.052(i).
+
+- **Duties of replacing insurers:** If a transaction involves a replacement, the replacing insurer must verify that required forms are received and comply with Chapter 1114. Sec. 1114.053(b). The replacing insurer must notify any existing insurer that may be affected by the proposed replacement no later than the fifth business day after receiving a completed application indicating replacement, or after replacement is otherwise identified. Sec. 1114.053(c)(1). It must also mail a copy of the available illustration or policy summary for the proposed policy, or available disclosure document for the proposed contract, to the existing insurer within five business days after the existing insurer’s request. Sec. 1114.053(c)(2).
+
+- **Owner’s right to return replacement policy:** The replacing insurer must notify the policy or contract owner of the right to return the new policy or contract within 30 days after delivery and receive an unconditional full refund of all premiums or considerations paid, including fees or charges, or for certain variable or market value adjustment products, the cash surrender value plus deducted fees and charges. Sec. 1114.053(e).
+
+- **Credit for incontestability and suicide periods:** If the replacing insurer and existing insurer are the same or are affiliates under common ownership or control, the replacing insurer must allow credit for time elapsed under the replaced policy’s or contract’s incontestability and suicide period up to the face amount of the existing policy or contract, subject to a limitation for financed purchases. Sec. 1114.053(f).
+
+- **Alternative compliance when only insurer-approved sales material is allowed:** If the insurer prohibits sales material other than insurer-approved material, it may use an alternative procedure requiring the agent’s signed statement, applicant notification within 10 days after issuance, a toll-free compliance contact, and retention of verification in the policy file. Sec. 1114.053(g).
+
+- **Penalties and unfair competition:** Failure by an insurer or agent to comply with Chapter 1114 is a violation of Chapter 541 and is subject to sanctions and penalties under that chapter. Sec. 1114.101(a). The statute lists examples of violations, including deceptive or misleading sales material, failing to ask pertinent questions about financing or replacement, intentionally recording incorrect answers, advising applicants to deny replacement to avoid notice to the existing insurer, and advising owners to contact the insurer directly to obscure the identity of the replacing agent or insurer. Sec. 1114.101(a)(1)-(5).
+
+- **Replacement despite initial denial:** A policy or contract owner may still replace an existing policy or annuity after indicating on the application that replacement was not intended. However, repeated patterns of that conduct involving the same agent are prima facie evidence of the agent’s knowledge and intent to violate Chapter 1114. Sec. 1114.101(b).
+
+- **Remedy if requirements were not met:** If Chapter 1114’s requirements were not met, the replacing insurer must provide the policy owner an in force illustration, or if unavailable a policy summary for the replacement policy or available disclosure document for the replacement contract, and the appropriate notice regarding replacements. Sec. 1114.101(c).
+
+These provisions are the statute excerpts provided that regulate replacement of existing life insurance policies in Texas.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1114.101     | UNFAIR METHOD OF COMPETITION; SANCTIONS  | score=0.309 (semantic)
+  Sec. 1101.101     | REQUIRED POLICY PROVISIONS               | score=0.280 (semantic)
+  Sec. 1114.001     | PURPOSE                                  | score=0.280 (semantic)
+  Sec. 1114.052     | DUTIES OF INSURERS THAT USE AGENTS       | score=0.252 (semantic)
+  Sec. 1114.053     | DUTIES OF REPLACING INSURERS THAT USE AG | score=0.239 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1114.052', '1114.001', '1114.101', '1114.053']
+  Valid:        ['1114.052', '1114.001', '1114.101', '1114.053']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+9
+ python trial_qa.py "What rights does a group life insurance policyholder have when their employment ends?"
+============================================================
+Question: What rights does a group life insurance policyholder have when their employment ends?
+Model:    gpt-5.4
+============================================================
+
+When an individual’s employment ends, a **group life insurance policy** must provide the individual with a **right to convert to an individual life insurance policy** if the insurance ceases because employment terminates. Specifically:
+
+- The individual is entitled to have the insurer issue an **individual life insurance policy** **without disability or other supplementary benefits**. Sec. 1131.110(a).
+- The individual must **apply and pay the first premium not later than the 31st day** after employment terminates. Sec. 1131.110(b).
+- The policy must be issued **without evidence of insurability**. Sec. 1131.110(c).
+- The insured may choose **any individual policy, other than term life insurance, customarily issued by the insurer** for a person of the insured’s age and for the amount requested. Sec. 1131.110(d).
+- The amount of the individual policy generally may **not exceed the amount of life insurance that ceases** because employment ends, subject to the endowment exception in Sec. 1131.110(f). Sec. 1131.110(e), (f).
+- The premium must be based on the insurer’s **customary rate** for the policy form and amount, the insured’s risk class, and age on the effective date. Sec. 1131.110(g).
+
+This right does **not** apply to:
+- a policy issued to a creditor to insure the creditor’s debtors; or
+- a policy to which Sec. 1131.703 applies. Sec. 1131.110(h).
+
+In addition, for a **spouse insured under the subchapter**, if group life coverage ends because the insured’s employment terminates, the spouse has **the same conversion rights** as the insured with respect to the spouse’s coverage. Sec. 1131.805.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1131.110     | RIGHT TO INDIVIDUAL POLICY ON TERMINATIO | score=0.402 (semantic)
+  Sec. 1131.805     | CONVERSION RIGHTS                        | score=0.312 (semantic)
+  Sec. 1131.111     | RIGHT TO INDIVIDUAL POLICY ON TERMINATIO | score=0.311 (semantic)
+  Sec. 1131.756     | RIGHT TO INDIVIDUAL POLICY ON TERMINATIO | score=0.310 (semantic)
+  Sec. 1131.151     | CONTINUATION OF BENEFITS FOR FAMILY MEMB | score=0.264 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1131.703', '1131.805', '1131.110']
+  Valid:        ['1131.805', '1131.110']
+  Hallucinated: ['1131.703']
+  Status:       FAIL — hallucinated citations detected
+============================================================
+
+
+
+10
+python trial_qa.py "Sec. 1101.006"
+============================================================
+Question: Sec. 1101.006
+Model:    gpt-5.4
+============================================================
+
+Sec. 1101.006 requires that a life insurance policy provide that, once the policy has been in force for two years from its date of issue during the insured’s lifetime, it is incontestable except for nonpayment of premiums. Sec. 1101.006(a).
+
+It also allows, at the company’s option, a provision stating that the policy may be contested at any time for violation of policy conditions relating to naval and military service in time of war. Sec. 1101.006(b).
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1101.006     | INCONTESTABILITY                         | score=1.000 (statute_id)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1101.006']
+  Valid:        ['1101.006']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+11
+python trial_qa.py "What does Section 1103.151 say?"
+============================================================
+Question: What does Section 1103.151 say?
+Model:    gpt-5.4
+============================================================
+
+Sec. 1103.151 states that a beneficiary of a life insurance policy or contract forfeits the beneficiary’s interest in the policy or contract if the beneficiary is a principal or an accomplice in willfully bringing about the death of the insured.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1103.151     | FORFEITURE                               | score=1.000 (statute_id)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1103.151']
+  Valid:        ['1103.151']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+12
+python trial_qa.py "Sec. 1106.003"
+============================================================
+Question: Sec. 1106.003
+Model:    gpt-5.4
+============================================================
+
+Sec. 1106.003 defines "mental incapacity" for Chapter 1106.
+
+Under Sec. 1106.003, "mental incapacity" means a lack of the ability to:
+
+1. understand and appreciate the nature and consequences of a decision regarding the failure to pay a premium when due; and
+2. reach an informed decision in the matter.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1106.003     | MENTAL INCAPACITY DEFINED                | score=1.000 (statute_id)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1106.003']
+  Valid:        ['1106.003']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+13
+python trial_qa.py "What is Section 1153.702?"
+============================================================
+Question: What is Section 1153.702?
+Model:    gpt-5.4
+============================================================
+
+Section 1153.702 is the **penalty provision** in Chapter 1153.
+
+It states that an individual, firm, or corporation that violates a final order issued under Chapter 1153 is liable to the state in a civil action for a penalty of not more than:
+
+- **$250**, or
+- **$1,000 if the court finds the violation was wilful**.
+  **Sec. 1153.702(a)**
+
+It also provides that this penalty is **in addition to any other penalty provided by law**.
+**Sec. 1153.702(b)**
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1153.702     | PENALTY                                  | score=1.000 (statute_id)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1153.702']
+  Valid:        ['1153.702']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+14
+python trial_qa.py "Can an insurer deny coverage based on opioid prescriptions?"
+============================================================
+Question: Can an insurer deny coverage based on opioid prescriptions?
+Model:    gpt-5.4
+============================================================
+
+A life insurance company may not deny coverage based solely on whether an individual has been prescribed or has obtained through a standing order an opioid antagonist. Sec. 1101.253(1).
+
+The statute specifically addresses an “opioid antagonist,” which is defined as a drug that binds to opioid receptors and blocks or inhibits opioid effects to reverse an opioid overdose. Sec. 1101.251.
+
+So, under the provided statutes, an insurer may not deny life insurance coverage solely because a person has been prescribed or obtained an opioid antagonist. Sec. 1101.253.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1101.253     | PROHIBITION                              | score=0.439 (semantic)
+  Sec. 1101.251     | DEFINITION                               | score=-0.076 (semantic)
+  Sec. 1101.207     | RULES                                    | score=-0.112 (semantic)
+  Sec. 1115.0521    | PROHIBITED PRACTICES                     | score=-0.246 (semantic)
+  Sec. 1114.101     | UNFAIR METHOD OF COMPETITION; SANCTIONS  | score=-0.251 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1101.251', '1101.253']
+  Valid:        ['1101.251', '1101.253']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+15
+python trial_qa.py "Can a minor purchase life insurance policy in Texas?"
+============================================================
+Question: Can a minor purchase life insurance policy in Texas?
+Model:    gpt-5.4
+============================================================
+
+Yes, under the provided statutes, a minor may purchase a life insurance policy in Texas in certain circumstances.
+
+- A minor who is **14 years of age or older** and **does not have a guardian of the estate** may contract for or otherwise acquire a life, term, or endowment insurance policy or an annuity contract, including applying for the policy and making agreements regarding it. The minor may also exercise all rights and powers regarding the policy in the same manner as an adult. Sec. 1104.003(a).
+- The policy must be **owned by the minor**. Sec. 1104.003(b)(1).
+- The policy must insure the life of:
+  - the minor,
+  - the minor’s spouse, child, parent, grandparent, or sibling, or
+  - another person in whose life the minor has an insurable interest. Sec. 1104.003(b)(2).
+- The beneficiary must be the minor, the minor’s estate, or the minor’s spouse, child, parent, grandparent, or sibling. Sec. 1104.003(d).
+- A parent may elect that this subchapter not apply to the minor by giving written notice to the insurance company, in which case the subchapter does not apply to later transactions. Sec. 1104.002.
+- A minor who acquires a policy under this subchapter may not rescind, avoid, or repudiate the policy because of minority. Sec. 1104.005.
+
+So, **yes**, a minor can purchase life insurance under **Sec. 1104.003**, but only if the statutory conditions are met.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1104.003     | AUTHORITY TO CONTRACT                    | score=0.408 (semantic)
+  Sec. 1103.056     | PURCHASE OF OR APPLICATION FOR POLICY BY | score=0.238 (semantic)
+  Sec. 1104.002     | CERTAIN TRANSACTIONS EXEMPT              | score=0.183 (semantic)
+  Sec. 1151.101     | AUTHORIZED PROVISIONS                    | score=0.131 (semantic)
+  Sec. 1104.005     | RESCISSION BECAUSE OF MINORITY PROHIBITE | score=0.110 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1104.005', '1104.002', '1104.003']
+  Valid:        ['1104.005', '1104.002', '1104.003']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+16
+python trial_qa.py "What is a 'financed purchase' in the context of life insurance replacement?"
+============================================================
+Question: What is a 'financed purchase' in the context of life insurance replacement?
+Model:    gpt-5.4
+============================================================
+
+A “financed purchase” means the purchase of a new policy that involves the actual or intended use of funds to pay all or part of a premium due on the new policy, where those funds are obtained by either:
+
+- withdrawing or surrendering an existing policy; or
+- borrowing from the values of an existing policy.
+  Sec. 1114.002(5).
+
+In the replacement context, “replacement” includes a transaction in which an existing policy is “used in a financed purchase.” Sec. 1114.002(8)(E).
+
+Also, if a withdrawal, surrender, or borrowing involving the policy values of an existing policy is used to pay premiums on a new policy owned by the same policyholder and issued by the same insurer within the time period stated in the statute, that is deemed prima facie evidence of the policyholder’s intent to finance the purchase of the new policy with existing policy values. Sec. 1114.005(a).
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1101.156     | PURCHASE OF OTHER INSURANCE AND REINSTAT | score=0.048 (semantic)
+  Sec. 1114.005     | FINANCED PURCHASE                        | score=0.038 (semantic)
+  Sec. 1114.101     | UNFAIR METHOD OF COMPETITION; SANCTIONS  | score=0.023 (semantic)
+  Sec. 1114.002     | GENERAL DEFINITIONS                      | score=-0.006 (semantic)
+  Sec. 1110.001     | DEFINITIONS                              | score=-0.064 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1114.002', '1114.005']
+  Valid:        ['1114.002', '1114.005']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+17
+python trial_qa.py "What obligations does an insurer have when they find a match in the Death Master file?"
+============================================================
+Question: What obligations does an insurer have when they find a match in the Death Master file?
+Model:    gpt-5.4
+============================================================
+
+When an insurer identifies a Death Master File match, its obligations are set out primarily in Sec. 1109.012:
+
+1. Within 90 days after identifying the match, the insurer must:
+   - complete a documented good faith effort to confirm the death of the insured or retained asset account holder against other available records and information, Sec. 1109.012(a)(1);
+   - review its records to determine whether the deceased individual had purchased or was otherwise covered by any of the insurer’s other products, Sec. 1109.012(a)(2); and
+   - determine whether proceeds may be due under the applicable policy, contract, or account terms, Sec. 1109.012(a)(3).
+
+2. For group life insurance or a group annuity contract, the insurer is required to confirm the possible death only if it provides recordkeeping services for the group policy or contract, Sec. 1109.012(b); see also the definition of “recordkeeping services” in Sec. 1109.010(5).
+
+3. If the insurer determines that proceeds may be due and no beneficiary or other authorized representative has contacted the insurer by the 90th day after the match was identified, the insurer must:
+   - complete a documented good faith effort to locate and contact each beneficiary or other authorized representative on the relevant policy, contract, or account, Sec. 1109.012(c)(1); and
+   - provide the beneficiary or authorized representative with appropriate claim forms, instructions, or information to make a claim, including information about any need to provide an official death certificate or other proof of death, Sec. 1109.012(c)(2).
+
+4. If the insurer cannot confirm the death after identifying the match, it may treat the policy, contract, or account as remaining in force according to its terms, Sec. 1109.012(d).
+
+5. To the extent permitted by law, the insurer may disclose the minimum necessary personal information to a person it reasonably believes may help locate a person entitled to payment, Sec. 1109.012(e).
+
+6. The insurer or its service provider may not charge the insured, retained asset account holder, beneficiary, or authorized representative any fees or costs for conducting the Death Master File comparison or verifying the match, Sec. 1109.012(f).
+
+Related obligations concerning the matching process itself are in Sec. 1109.011, which requires insurers to compare covered in-force policies, annuity contracts, and retained asset accounts against a Death Master File at least semiannually, using specified procedures. Also, nothing in the subchapter limits the insurer’s right to request a death certificate as part of claim validation, Sec. 1109.016.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1109.012     | DUTIES REGARDING DEATH MASTER FILE MATCH | score=0.475 (semantic)
+  Sec. 1109.011     | IDENTIFICATION OF DEATH MASTER FILE MATC | score=0.357 (semantic)
+  Sec. 1109.015     | AUTHORITY TO ISSUE CERTAIN ORDERS        | score=0.093 (semantic)
+  Sec. 1109.010     | DEFINITIONS                              | score=0.016 (semantic)
+  Sec. 1109.016     | AUTHORITY TO REQUEST DEATH CERTIFICATE   | score=-0.054 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1109.010', '1109.011', '1109.012', '1109.016']
+  Valid:        ['1109.010', '1109.011', '1109.012', '1109.016']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+18
+python trial_qa.py "What is an accelerated benefit and when can an insurer pay one?"
+============================================================
+Question: What is an accelerated benefit and when can an insurer pay one?
+Model:    gpt-5.4
+============================================================
+
+An “accelerated benefit” is “a benefit paid to an insured instead of a portion of a death benefit.” Sec. 1111.051(1).
+
+An insurer may pay an accelerated benefit under an individual or group term life insurance policy or certificate if:
+
+1. the insurer has received a written medical opinion, satisfactory to the insurer, that the insured has:
+   - a terminal illness, Sec. 1111.052(1)(A);
+   - a long-term care illness, Sec. 1111.052(1)(B); or
+   - an illness or physical condition likely to cause permanent disability or premature death, including:
+     - AIDS, Sec. 1111.052(1)(C)(i);
+     - a malignant tumor, Sec. 1111.052(1)(C)(ii);
+     - a condition requiring an organ transplant, Sec. 1111.052(1)(C)(iii); or
+     - coronary artery disease resulting in acute infarction or requiring surgery, Sec. 1111.052(1)(C)(iv); and
+
+2. the amount of the accelerated benefit is deducted from:
+   - the death benefit payable under the policy or certificate, Sec. 1111.052(2)(A); and
+   - any amount the insured would otherwise be entitled to convert to an individual contract, Sec. 1111.052(2)(B).
+
+Relevant definitions:
+- “Terminal illness” means an illness or physical condition, including a physical injury, that can reasonably be expected to result in death within not more than two years. Sec. 1111.051(4).
+- “Long-term care illness” means an illness or physical condition that results in the inability to perform the activities of daily life or the substantial and material duties of any occupation. Sec. 1111.051(3).
+- “Death benefit” means a benefit payable to a beneficiary on the death of an insured. Sec. 1111.051(2).
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1111.052     | AUTHORITY TO PAY ACCELERATED TERM LIFE B | score=0.360 (semantic)
+  Sec. 1111.051     | DEFINITIONS                              | score=0.151 (semantic)
+  Sec. 1106.008     | REDUCTION IN BENEFITS                    | score=-0.070 (semantic)
+  Sec. 1151.151     | EXTENDED TERM OR PAID-UP INSURANCE FOR C | score=-0.097 (semantic)
+  Sec. 1131.103     | GRACE PERIOD                             | score=-0.118 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1111.052', '1111.051']
+  Valid:        ['1111.052', '1111.051']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+19
+python trial_qa.py "What are the penalties for securities fraud in Texas?"
+============================================================
+Question: What are the penalties for securities fraud in Texas?
+Model:    gpt-5.4
+============================================================
+
+The provided statutes do not contain sufficient information to answer this question.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1153.702     | PENALTY                                  | score=0.131 (semantic)
+  Sec. 1114.102     | ADDITIONAL SANCTIONS                     | score=0.049 (semantic)
+  Sec. 1115.102     | SANCTIONS                                | score=-0.078 (semantic)
+  Sec. 1153.006     | FILING FEE                               | score=-0.130 (semantic)
+  Sec. 1107.055     | INTEREST RATE                            | score=-0.162 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        []
+  Valid:        []
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+20
+python trial_qa.py "What are the requirements for auto insurance liability coverage in Texas?"
+============================================================
+Question: What are the requirements for auto insurance liability coverage in Texas?
+Model:    gpt-5.4
+============================================================
+
+The provided statutes do not contain sufficient information to answer this question.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1153.006     | FILING FEE                               | score=-0.025 (semantic)
+  Sec. 1153.052     | REQUIREMENTS RELATING TO INSURANCE POLIC | score=-0.032 (semantic)
+  Sec. 1151.101     | AUTHORIZED PROVISIONS                    | score=-0.075 (semantic)
+  Sec. 1131.255     | AMOUNTS OF INSURANCE                     | score=-0.094 (semantic)
+  Sec. 1101.101     | REQUIRED POLICY PROVISIONS               | score=-0.096 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        []
+  Valid:        []
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+21
+python trial_qa.py "How do I file a health insurance claim in Texas?"
+============================================================
+Question: How do I file a health insurance claim in Texas?
+Model:    gpt-5.4
+============================================================
+
+For a claim under a credit accident and health insurance policy covered by Chapter 1153, the statute says:
+
+- The claim must be reported promptly to the insurer or the insurer’s designated claim representative. Sec. 1153.204(a).
+- The insurer must maintain adequate claim files. Sec. 1153.204(b).
+- The claim must be settled as soon as possible and in accordance with the insurance contract. Sec. 1153.204(c).
+- Payment must be made by a draft drawn on the insurer or by the insurer’s check payable to the claimant entitled to payment under the policy, or as directed by the claimant. Sec. 1153.204(d).
+- A creditor may not be designated as the insurer’s claim representative for settling or adjusting the claim. Sec. 1153.204(e).
+
+The provided statutes do not contain sufficient information to answer this question for health insurance generally in Texas.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1153.006     | FILING FEE                               | score=0.070 (semantic)
+  Sec. 1153.204     | CLAIM UNDER POLICY                       | score=-0.001 (semantic)
+  Sec. 1153.051     | FILING OF FORM                           | score=-0.042 (semantic)
+  Sec. 1101.011     | TIME FOR SETTLEMENT OF CLAIM             | score=-0.063 (semantic)
+  Sec. 1153.153     | EVIDENCE OF INSURANCE                    | score=-0.096 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1153.204']
+  Valid:        ['1153.204']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+22
+python trial_qa.py "What is the minimum wage in Texas?"
+============================================================
+Question: What is the minimum wage in Texas?
+Model:    gpt-5.4
+============================================================
+
+The provided statutes do not contain sufficient information to answer this question.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1107.051     | MINIMUM NONFORFEITURE AMOUNT             | score=-0.284 (semantic)
+  Sec. 1107.055     | INTEREST RATE                            | score=-0.298 (semantic)
+  Sec. 1153.104     | APPEAL OF PRESUMPTIVE RATE               | score=-0.322 (semantic)
+  Sec. 1153.006     | FILING FEE                               | score=-0.333 (semantic)
+  Sec. 1131.204     | MINIMUM ENROLLMENT                       | score=-0.362 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        []
+  Valid:        []
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+23
+python trial_qa.py "Can group life insurance continue during a labor dispute?"
+============================================================
+Question: Can group life insurance continue during a labor dispute?
+Model:    gpt-5.4
+============================================================
+
+Yes. For policies subject to Subchapter R, the policy must provide that if covered employees stop work because of a labor dispute, coverage continues on timely payment of the premium for each employee who:
+
+1. was covered when the work stoppage began;
+2. continues to pay the employee’s individual contribution; and
+3. assumes and pays the employer’s contribution during the work stoppage,
+
+subject to the subchapter’s conditions. Sec. 1131.852.
+
+Also, a labor union may be issued a group life insurance policy for its members, and for purposes of Chapter 1131, the labor union is considered the employer and its members are considered employees. Sec. 1131.052.
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1131.852     | CONTINUATION OF GROUP LIFE INSURANCE DUR | score=0.592 (semantic)
+  Sec. 1131.052     | LABOR UNIONS                             | score=0.184 (semantic)
+  Sec. 1131.151     | CONTINUATION OF BENEFITS FOR FAMILY MEMB | score=0.151 (semantic)
+  Sec. 1131.806     | CERTIFICATE OF INSURANCE                 | score=0.138 (semantic)
+  Sec. 1131.053     | FUNDS ESTABLISHED BY EMPLOYERS OR LABOR  | score=0.088 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1131.852', '1131.052']
+  Valid:        ['1131.852', '1131.052']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+24
+python trial_qa.py "What is the maximum interest rate allowed on life insurance policy loans?"
+============================================================
+Question: What is the maximum interest rate allowed on life insurance policy loans?
+Model:    gpt-5.4
+============================================================
+
+Under Sec. 1110.004(b), a life insurance policy loan interest provision must provide either:
+
+1. a rate that does not exceed 10 percent per year, under Sec. 1110.004(b)(1); or
+2. an adjustable maximum rate, under Sec. 1110.004(b)(2), that does not exceed the lesser of:
+   - 15 percent per year, Sec. 1110.004(b)(2)(A); or
+   - the greater of:
+     - the published monthly average for the calendar month ending two months before the rate is determined, Sec. 1110.004(b)(2)(B)(i); or
+     - the rate used to compute the policy’s cash surrender values during the applicable period plus 1 percent per year, Sec. 1110.004(b)(2)(B)(ii).
+
+So, the maximum allowed rate is either 10 percent per year for a fixed-rate provision or, if the policy uses an adjustable rate, the lesser of 15 percent per year or the statutory formula in Sec. 1110.004(b)(2).
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1110.004     | MAXIMUM INTEREST RATE ON POLICY LOANS    | score=0.493 (semantic)
+  Sec. 1110.008     | LOAN VALUE OF POLICY;  TERMINATION OF PO | score=0.227 (semantic)
+  Sec. 1101.009     | POLICY LOANS                             | score=0.205 (semantic)
+  Sec. 1110.007     | NOTICE TO POLICYHOLDER                   | score=0.196 (semantic)
+  Sec. 1110.005     | FREQUENCY OF ADJUSTABLE INTEREST RATE DE | score=0.126 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1110.004']
+  Valid:        ['1110.004']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
+
+
+25
+python trial_qa.py "Who can be named as a beneficiary on a life insurance policy in Texas?"
+============================================================
+Question: Who can be named as a beneficiary on a life insurance policy in Texas?
+Model:    gpt-5.4
+============================================================
+
+Under the provided statutes, a life insurance policy beneficiary in Texas may be:
+
+- **Any individual, partnership, association, corporation, or other legal entity**, if designated in writing and as permitted by the policy. Sec. 1103.054(2)(A); Sec. 1103.055(1).
+- **A trustee named as beneficiary in the policy** under a trust agreement. Sec. 1104.021(a).
+- **A trustee designated by will**, if the policy so provides and the designation complies with the policy provisions and the insurance company’s requirements. Sec. 1104.022(a).
+
+For **group life insurance**, the policy must provide that death benefits are paid to **the beneficiary designated by the insured or the beneficiary’s assignee**, subject to the policy terms. Sec. 1131.109(a).
+
+------------------------------------------------------------
+Retrieved Sections:
+  Sec. 1104.021     | TRUSTEE NAMED AS BENEFICIARY IN POLICY   | score=0.471 (semantic)
+  Sec. 1104.022     | TRUSTEE NAMED AS BENEFICIARY IN WILL     | score=0.413 (semantic)
+  Sec. 1103.055     | DESIGNATION OF BENEFICIARY OF POLICY;  T | score=0.413 (semantic)
+  Sec. 1103.054     | DESIGNATION OF BENEFICIARY OR OWNER IN P | score=0.340 (semantic)
+  Sec. 1131.109     | PERSON TO WHOM BENEFITS ARE PAYABLE      | score=0.335 (semantic)
+------------------------------------------------------------
+Citation Validation:
+  Cited:        ['1131.109', '1104.022', '1103.055', '1104.021', '1103.054']
+  Valid:        ['1131.109', '1104.022', '1103.055', '1104.021', '1103.054']
+  Hallucinated: []
+  Status:       PASS
+============================================================
+
